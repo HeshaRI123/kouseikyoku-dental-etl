@@ -1,0 +1,10 @@
+beautifulsoup4==4.12.3
+requests==2.32.3
+pandas==2.2.2
+openpyxl==3.1.5
+PyYAML==6.0.2
+Jinja2==3.1.4
+google-api-python-client==2.149.0
+google-auth==2.35.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1

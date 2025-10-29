@@ -1,0 +1,26 @@
+notion:
+  database_id: "${NOTION_DB_ID}"
+  token_env: "NOTION_TOKEN"
+storage:
+  shared_drive_name: "医療名簿共有ドライブ"
+  root_folder: "facility-agent"
+bureaus:
+  shikoku: "https://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html"
+  kinki:   "https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo_00004.html"
+  kyushu:  "https://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index_00007.html"
+targets:
+  prefectures: ["兵庫県", "愛媛県", "福岡県"]
+  bureau_map:
+    兵庫県: "近畿"
+    愛媛県: "四国"
+    福岡県: "九州"
+assign:
+  office_map:
+    兵庫県: "神戸"
+    愛媛県: "松山"
+    福岡県: "北九州"
+geocoding:
+  use_google: false
+  api_key_env: "GOOGLE_MAPS_API_KEY"
+report:
+  top_n: 20
